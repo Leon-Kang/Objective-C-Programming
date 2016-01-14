@@ -26,6 +26,10 @@ int main(int argc, const char * argv[]) {
         
         // 创建NSMutableArray对象，用来包含多个Employee对象
         NSMutableArray *employees = [[NSMutableArray alloc] init];
+        
+        // 创建NSMutableDictionary对象，用于包含多个『主管』
+        NSMutableDictionary *executives = [[NSMutableDictionary alloc] init];
+        
         for (int i = 0; i < 10; i++) {
             // 创建Employee实例
             Employee *person = [[Employee alloc] init];
@@ -37,6 +41,16 @@ int main(int argc, const char * argv[]) {
             
             // 将新创建的Employee实例加入NSMutableArray对象
             [employees addObject:person];
+            
+            // 第一个Employee对象？
+            if (i == 0) {
+                [executives setValue:person forKey:@"CEO"];
+            }
+            
+            // 第二个Employee对象？
+            if (i == 1) {
+                [executives setValue:person forKey:@"CTO"];
+            }
         }
         
         NSMutableArray *allAssets = [[NSMutableArray alloc] init];
@@ -75,6 +89,9 @@ int main(int argc, const char * argv[]) {
         [employees removeObjectAtIndex:5];
         
         NSLog(@"allAssets: %@",allAssets);
+        
+        NSLog(@"executives: %@",executives);
+        executives = nil;
         
         // 过滤
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];

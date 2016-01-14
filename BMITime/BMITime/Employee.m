@@ -17,7 +17,7 @@
     // assets是否为nil
     if (!assets) {
         // 创建NSMutableArray
-        assets = [[NSMutableArray alloc] init];
+        assets = [[NSMutableSet alloc] init];
     }
     [assets addObject:a];
     [a setHolder:self];

@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0391271BD4FCCB001E1911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0391261BD4FCCB001E1911 /* main.m */; };
+		6B03912A1BD4FCCB001E1911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0391291BD4FCCB001E1911 /* AppDelegate.m */; };
+		6B03912D1BD4FCCB001E1911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B03912C1BD4FCCB001E1911 /* ViewController.m */; };
+		6B0391301BD4FCCB001E1911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B03912E1BD4FCCB001E1911 /* Main.storyboard */; };
+		6B0391321BD4FCCB001E1911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0391311BD4FCCB001E1911 /* Assets.xcassets */; };
+		6B0391351BD4FCCB001E1911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0391331BD4FCCB001E1911 /* LaunchScreen.storyboard */; };
+		6B0391401BD4FCCB001E1911 /* iTahDoodleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B03913F1BD4FCCB001E1911 /* iTahDoodleTests.m */; };
+		6B03914B1BD4FCCC001E1911 /* iTahDoodleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B03914A1BD4FCCC001E1911 /* iTahDoodleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B03913C1BD4FCCB001E1911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B03911A1BD4FCCB001E1911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B0391211BD4FCCB001E1911;
+			remoteInfo = iTahDoodle;
+		};
+		6B0391471BD4FCCC001E1911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B03911A1BD4FCCB001E1911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B0391211BD4FCCB001E1911;
+			remoteInfo = iTahDoodle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B0391221BD4FCCB001E1911 /* iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0391261BD4FCCB001E1911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B0391281BD4FCCB001E1911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B0391291BD4FCCB001E1911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B03912B1BD4FCCB001E1911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B03912C1BD4FCCB001E1911 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B03912F1BD4FCCB001E1911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B0391311BD4FCCB001E1911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B0391341BD4FCCB001E1911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B0391361BD4FCCB001E1911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B03913B1BD4FCCB001E1911 /* iTahDoodleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTahDoodleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B03913F1BD4FCCB001E1911 /* iTahDoodleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTahDoodleTests.m; sourceTree = "<group>"; };
+		6B0391411BD4FCCB001E1911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0391461BD4FCCC001E1911 /* iTahDoodleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTahDoodleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B03914A1BD4FCCC001E1911 /* iTahDoodleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTahDoodleUITests.m; sourceTree = "<group>"; };
+		6B03914C1BD4FCCC001E1911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B03911F1BD4FCCB001E1911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0391381BD4FCCB001E1911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0391431BD4FCCC001E1911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0391191BD4FCCB001E1911 = {
+			isa = PBXGroup;
+			children = (
+				6B0391241BD4FCCB001E1911 /* iTahDoodle */,
+				6B03913E1BD4FCCB001E1911 /* iTahDoodleTests */,
+				6B0391491BD4FCCC001E1911 /* iTahDoodleUITests */,
+				6B0391231BD4FCCB001E1911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B0391231BD4FCCB001E1911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B0391221BD4FCCB001E1911 /* iTahDoodle.app */,
+				6B03913B1BD4FCCB001E1911 /* iTahDoodleTests.xctest */,
+				6B0391461BD4FCCC001E1911 /* iTahDoodleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0391241BD4FCCB001E1911 /* iTahDoodle */ = {
+			isa = PBXGroup;
+			children = (
+				6B0391281BD4FCCB001E1911 /* AppDelegate.h */,
+				6B0391291BD4FCCB001E1911 /* AppDelegate.m */,
+				6B03912B1BD4FCCB001E1911 /* ViewController.h */,
+				6B03912C1BD4FCCB001E1911 /* ViewController.m */,
+				6B03912E1BD4FCCB001E1911 /* Main.storyboard */,
+				6B0391311BD4FCCB001E1911 /* Assets.xcassets */,
+				6B0391331BD4FCCB001E1911 /* LaunchScreen.storyboard */,
+				6B0391361BD4FCCB001E1911 /* Info.plist */,
+				6B0391251BD4FCCB001E1911 /* Supporting Files */,
+			);
+			path = iTahDoodle;
+			sourceTree = "<group>";
+		};
+		6B0391251BD4FCCB001E1911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0391261BD4FCCB001E1911 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B03913E1BD4FCCB001E1911 /* iTahDoodleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B03913F1BD4FCCB001E1911 /* iTahDoodleTests.m */,
+				6B0391411BD4FCCB001E1911 /* Info.plist */,
+			);
+			path = iTahDoodleTests;
+			sourceTree = "<group>";
+		};
+		6B0391491BD4FCCC001E1911 /* iTahDoodleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B03914A1BD4FCCC001E1911 /* iTahDoodleUITests.m */,
+				6B03914C1BD4FCCC001E1911 /* Info.plist */,
+			);
+			path = iTahDoodleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B0391211BD4FCCB001E1911 /* iTahDoodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B03914F1BD4FCCC001E1911 /* Build configuration list for PBXNativeTarget "iTahDoodle" */;
+			buildPhases = (
+				6B03911E1BD4FCCB001E1911 /* Sources */,
+				6B03911F1BD4FCCB001E1911 /* Frameworks */,
+				6B0391201BD4FCCB001E1911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTahDoodle;
+			productName = iTahDoodle;
+			productReference = 6B0391221BD4FCCB001E1911 /* iTahDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B03913A1BD4FCCB001E1911 /* iTahDoodleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0391521BD4FCCC001E1911 /* Build configuration list for PBXNativeTarget "iTahDoodleTests" */;
+			buildPhases = (
+				6B0391371BD4FCCB001E1911 /* Sources */,
+				6B0391381BD4FCCB001E1911 /* Frameworks */,
+				6B0391391BD4FCCB001E1911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B03913D1BD4FCCB001E1911 /* PBXTargetDependency */,
+			);
+			name = iTahDoodleTests;
+			productName = iTahDoodleTests;
+			productReference = 6B03913B1BD4FCCB001E1911 /* iTahDoodleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B0391451BD4FCCC001E1911 /* iTahDoodleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0391551BD4FCCC001E1911 /* Build configuration list for PBXNativeTarget "iTahDoodleUITests" */;
+			buildPhases = (
+				6B0391421BD4FCCC001E1911 /* Sources */,
+				6B0391431BD4FCCC001E1911 /* Frameworks */,
+				6B0391441BD4FCCC001E1911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B0391481BD4FCCC001E1911 /* PBXTargetDependency */,
+			);
+			name = iTahDoodleUITests;
+			productName = iTahDoodleUITests;
+			productReference = 6B0391461BD4FCCC001E1911 /* iTahDoodleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B03911A1BD4FCCB001E1911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = kl;
+				TargetAttributes = {
+					6B0391211BD4FCCB001E1911 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9LX3DSVSDD;
+					};
+					6B03913A1BD4FCCB001E1911 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9LX3DSVSDD;
+						TestTargetID = 6B0391211BD4FCCB001E1911;
+					};
+					6B0391451BD4FCCC001E1911 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9LX3DSVSDD;
+						TestTargetID = 6B0391211BD4FCCB001E1911;
+					};
+				};
+			};
+			buildConfigurationList = 6B03911D1BD4FCCB001E1911 /* Build configuration list for PBXProject "iTahDoodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B0391191BD4FCCB001E1911;
+			productRefGroup = 6B0391231BD4FCCB001E1911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B0391211BD4FCCB001E1911 /* iTahDoodle */,
+				6B03913A1BD4FCCB001E1911 /* iTahDoodleTests */,
+				6B0391451BD4FCCC001E1911 /* iTahDoodleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B0391201BD4FCCB001E1911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0391351BD4FCCB001E1911 /* LaunchScreen.storyboard in Resources */,
+				6B0391321BD4FCCB001E1911 /* Assets.xcassets in Resources */,
+				6B0391301BD4FCCB001E1911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0391391BD4FCCB001E1911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0391441BD4FCCC001E1911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B03911E1BD4FCCB001E1911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B03912D1BD4FCCB001E1911 /* ViewController.m in Sources */,
+				6B03912A1BD4FCCB001E1911 /* AppDelegate.m in Sources */,
+				6B0391271BD4FCCB001E1911 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0391371BD4FCCB001E1911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0391401BD4FCCB001E1911 /* iTahDoodleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0391421BD4FCCC001E1911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B03914B1BD4FCCC001E1911 /* iTahDoodleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B03913D1BD4FCCB001E1911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B0391211BD4FCCB001E1911 /* iTahDoodle */;
+			targetProxy = 6B03913C1BD4FCCB001E1911 /* PBXContainerItemProxy */;
+		};
+		6B0391481BD4FCCC001E1911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B0391211BD4FCCB001E1911 /* iTahDoodle */;
+			targetProxy = 6B0391471BD4FCCC001E1911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B03912E1BD4FCCB001E1911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B03912F1BD4FCCB001E1911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B0391331BD4FCCB001E1911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0391341BD4FCCB001E1911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B03914D1BD4FCCC001E1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B03914E1BD4FCCC001E1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B0391501BD4FCCC001E1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTahDoodle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.iTahDoodle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B0391511BD4FCCC001E1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTahDoodle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.iTahDoodle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B0391531BD4FCCC001E1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTahDoodleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.iTahDoodleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTahDoodle.app/iTahDoodle";
+			};
+			name = Debug;
+		};
+		6B0391541BD4FCCC001E1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTahDoodleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.iTahDoodleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTahDoodle.app/iTahDoodle";
+			};
+			name = Release;
+		};
+		6B0391561BD4FCCC001E1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iTahDoodleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.iTahDoodleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iTahDoodle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6B0391571BD4FCCC001E1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iTahDoodleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.iTahDoodleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iTahDoodle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B03911D1BD4FCCB001E1911 /* Build configuration list for PBXProject "iTahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B03914D1BD4FCCC001E1911 /* Debug */,
+				6B03914E1BD4FCCC001E1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B03914F1BD4FCCC001E1911 /* Build configuration list for PBXNativeTarget "iTahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0391501BD4FCCC001E1911 /* Debug */,
+				6B0391511BD4FCCC001E1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B0391521BD4FCCC001E1911 /* Build configuration list for PBXNativeTarget "iTahDoodleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0391531BD4FCCC001E1911 /* Debug */,
+				6B0391541BD4FCCC001E1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B0391551BD4FCCC001E1911 /* Build configuration list for PBXNativeTarget "iTahDoodleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0391561BD4FCCC001E1911 /* Debug */,
+				6B0391571BD4FCCC001E1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B03911A1BD4FCCB001E1911 /* Project object */;
+}
